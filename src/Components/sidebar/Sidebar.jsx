@@ -1,4 +1,17 @@
-import { AttachMoney, BarChart, ChatBubbleOutline, Dashboard, DynamicFeed, LineStyle, MailOutline, PermIdentity, Report, Storefront, Timeline, TrendingUp, WorkOutline } from "@material-ui/icons";
+import {
+  AttachMoney,
+  BarChart,
+  ChatBubbleOutline,
+  Dashboard,
+  DynamicFeed,
+  MailOutline,
+  PermIdentity,
+  Report,
+  Storefront,
+  Timeline,
+  TrendingUp,
+  WorkOutline,
+} from "@material-ui/icons";
 import React from "react";
 import "./Sidebar.css";
 
@@ -35,11 +48,11 @@ const Sidebar = () => {
               Products
             </li>
             <li className="sidebarListItem">
-              <AttachMoney  className="sidebarIcon" />
+              <AttachMoney className="sidebarIcon" />
               Transactions
             </li>
             <li className="sidebarListItem">
-              <BarChart  className="sidebarIcon" />
+              <BarChart className="sidebarIcon" />
               Reports
             </li>
           </ul>
@@ -48,7 +61,7 @@ const Sidebar = () => {
           <h3 className="sidebarTitle">Notifications</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem ">
-              <MailOutline  className="sidebarIcon" />
+              <MailOutline className="sidebarIcon" />
               Mail
             </li>
             <li className="sidebarListItem">
@@ -65,15 +78,15 @@ const Sidebar = () => {
           <h3 className="sidebarTitle">Staff</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem ">
-              <WorkOutline  className="sidebarIcon" />
-             Manage
+              <WorkOutline className="sidebarIcon" />
+              Manage
             </li>
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
               Analytics
             </li>
             <li className="sidebarListItem">
-              <Report  className="sidebarIcon" />
+              <Report className="sidebarIcon" />
               Reports
             </li>
           </ul>
