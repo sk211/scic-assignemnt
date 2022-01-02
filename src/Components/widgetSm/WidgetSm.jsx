@@ -12,15 +12,15 @@ const Widgetsm = () => {
             alt=""
             className="widgetSmImg"
           />
-        
-        <div className="widgetSmUser">
-          <span className="widgetSmUsername">Alana</span>
-          <span className="widgetSmUserTitle">Singer</span>
-        </div>
-        <button className="widgetSmButton">
-            <Visibility className="widgetMsIcon"  />
+
+          <div className="widgetSmUser">
+            <span className="widgetSmUsername">Alana</span>
+            <span className="widgetSmUserTitle">Singer</span>
+          </div>
+          <button className="widgetSmButton">
+            <Visibility className="widgetSmIcon" />
             Display
-        </button>
+          </button>
         </li>
         <li className="widgetSmListItem">
           <img
@@ -28,15 +28,15 @@ const Widgetsm = () => {
             alt=""
             className="widgetSmImg"
           />
-        
-        <div className="widgetSmUser">
-          <span className="widgetSmUsername">Alana</span>
-          <span className="widgetSmUserTitle">Singer</span>
-        </div>
-        <button className="widgetSmButton">
-            <Visibility />
+
+          <div className="widgetSmUser">
+            <span className="widgetSmUsername">Alana</span>
+            <span className="widgetSmUserTitle">Singer</span>
+          </div>
+          <button className="widgetSmButton">
+            <Visibility className="widgetSmIcon" />
             Display
-        </button>
+          </button>
         </li>
         <li className="widgetSmListItem">
           <img
@@ -44,15 +44,15 @@ const Widgetsm = () => {
             alt=""
             className="widgetSmImg"
           />
-        
-        <div className="widgetSmUser">
-          <span className="widgetSmUsername">Alana</span>
-          <span className="widgetSmUserTitle">Singer</span>
-        </div>
-        <button className="widgetSmButton">
-            <Visibility/>
+
+          <div className="widgetSmUser">
+            <span className="widgetSmUsername">Alana</span>
+            <span className="widgetSmUserTitle">Singer</span>
+          </div>
+          <button className="widgetSmButton">
+            <Visibility className="widgetSmIcon" />
             Display
-        </button>
+          </button>
         </li>
         <li className="widgetSmListItem">
           <img
@@ -60,15 +60,15 @@ const Widgetsm = () => {
             alt=""
             className="widgetSmImg"
           />
-        
-        <div className="widgetSmUser">
-          <span className="widgetSmUsername">Alana</span>
-          <span className="widgetSmUserTitle">Singer</span>
-        </div>
-        <button className="widgetSmButton">
-            <Visibility/>
+
+          <div className="widgetSmUser">
+            <span className="widgetSmUsername">Alana</span>
+            <span className="widgetSmUserTitle">Singer</span>
+          </div>
+          <button className="widgetSmButton">
+            <Visibility className="widgetSmIcon" />
             Display
-        </button>
+          </button>
         </li>
         <li className="widgetSmListItem">
           <img
@@ -76,15 +76,15 @@ const Widgetsm = () => {
             alt=""
             className="widgetSmImg"
           />
-        
-        <div className="widgetSmUser">
-          <span className="widgetSmUsername">Alana</span>
-          <span className="widgetSmUserTitle">Singer</span>
-        </div>
-        <button className="widgetSmButton">
-            <Visibility/>
+
+          <div className="widgetSmUser">
+            <span className="widgetSmUsername">Alana</span>
+            <span className="widgetSmUserTitle">Singer</span>
+          </div>
+          <button className="widgetSmButton">
+            <Visibility className="widgetSmIcon" />
             Display
-        </button>
+          </button>
         </li>
       </ul>
     </div>
