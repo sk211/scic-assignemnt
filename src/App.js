@@ -1,12 +1,22 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import {
+  BrowserRouter, Route, Routes
+} from "react-router-dom";
 import './App.css';
-import Home from './Components/Home/Home';
+import Cart from './Components/Cart/Cart';
+
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <BrowserRouter>
+    <Routes>
+      <Route path="/cart" element={<Cart />}>
+        
+      </Route>
+    </Routes>
+  </BrowserRouter>
+     
     </div>
   );
 }
