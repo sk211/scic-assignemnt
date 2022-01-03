@@ -122,14 +122,40 @@ export default function Cart() {
                         <h5 className=""> Summary</h5>
                             <p className="mb-0">Sub-total  <span className="px-5">$ 80.00</span></p>
                             
-                            <p className="mb-0">Delivery charge  <span className="px-4">$ 00</span> </p>
+                            <p className="mb-0">Delivery charge  <span className="px-4 ">$ 00</span> </p>
                             
                             <p className="mb-0">Coupan Discount : 00</p>
                             <hr className="my-2" />
                             
-                            <p className="mb-0">Total Amount  <span className="px-5">$ 80.00</span> </p>
+                            <p className="mb-0 mb-5">Total Amount  <span className="px-5 ">$ 80.00</span> </p>
 
                              {/* product  */}
+
+                             <div className='d-flex'>
+                                 <div className="w-50">
+                                        <img className="w-50 product-img" src="https://i.ibb.co/z4SBgrY/photo-1602734846297-9299fc2d4703.jpg" alt="" />
+                                 </div>
+                                 <div className='w-50'>
+                                    <h6>Baby Toy Teady Bear</h6>
+                                    <h6> Price: $ 70.00</h6>
+                                    <div className="course-rating">
+                            <div>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                                
+                            </div>
+                            </div>
+                                    <div className='d-flex'>
+                                        <div className="toy-product"></div>
+                                        <div className="toy-product"></div>
+                                        <div className="toy-product"></div>
+                                        <div className="toy-product"></div>
+                                    </div>
+                                 </div>
+                             </div>
                         
                             
                     </div>

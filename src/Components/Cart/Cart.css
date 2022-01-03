@@ -3,3 +3,27 @@
     background-color: rgb(27, 11, 11);
 
 }
+.product-img:hover{
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+
+.toy-product{
+    width: 20%;
+    height:10%;
+    background-color: #a52a2a;
+    border-radius: 70%;
+}
+.course-rating{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+.fa-star.filled{
+   color: #FFC014;
+
+}
+.fa-star.empty{
+    color:#AEAEAE; 
+}
