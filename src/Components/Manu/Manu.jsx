@@ -21,7 +21,7 @@ export default function Manu() {
                                 <Link to="/"></Link>
                                 <Link to="/home">Home</Link>
                                 <Link to="/about">Link</Link>
-
+                                
                             </Nav>
 
                         </Navbar.Collapse>
