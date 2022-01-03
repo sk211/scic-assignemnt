@@ -1,19 +1,16 @@
 import React from "react";
+import Footer from "../Footer/Footer";
+import Manu from "../Manu/Manu";
+import HeaderTop from './../Header/HeaderTop';
+import HederMeddle from './../Header/HederMeddle';
 
 export default function Home() {
-<<<<<<< HEAD
     return (
         <div>
-            <h2>welcome to SCIC Assignment team  work</h2>
+            <HeaderTop />
+            <HederMeddle />
+            <Manu />
 
         </div>
     )
-=======
-  return (
-    <div>
-        
-      <h2>Hello I am choyon my part is to design dashboard</h2>
-    </div>
-  );
->>>>>>> 0cda05b2f13ac05b3052c2323133231c7e6ea9ee
 }
