@@ -6,7 +6,7 @@ import './App.css';
 
 import About from './Components/About/About';
 import Home from './Components/Home/Home';
-// import Login from "./Components/Login/Login";
+import Login from "./Components/Login/Login";
 import Register from './Components/Register/Register';
 
 function App() {
@@ -15,12 +15,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} /> 
-
-        {/* <Route  path="/login" element={<Login />} /> */}
-        <Route path="/about" element={<About />} />
-        
-        
-        <Route path="/register" element={<Register />} /> 
+        <Route path="/about" element={<About />} />  
+        <Route  path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />}/> 
         
       </Routes>
     </div>
