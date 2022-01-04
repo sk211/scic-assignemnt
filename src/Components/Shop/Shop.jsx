@@ -11,13 +11,13 @@ const products =[
     },
     {
         id:'02',
-        img:'https://i.ibb.co/z4SBgrY/photo-1602734846297-9299fc2d4703.jpg',
+        img:'https://i.ibb.co/qdwZ7GK/photo-1602734846297-9299fc2d4703-removebg-preview.png',
         title:'Baby Boy Teady Bear',
         price:25
     },
     {
         id:'03',
-        img:'https://i.ibb.co/z4SBgrY/photo-1602734846297-9299fc2d4703.jpg',
+        img:'https://i.ibb.co/qdwZ7GK/photo-1602734846297-9299fc2d4703-removebg-preview.png',
         title:'Baby Boy Teady Bear',
         price:25
     },
@@ -62,9 +62,9 @@ export default function Shop() {
                     </div>
                     <div className="BuyBtn-group d-flex mt-3">
                     <a href="" className="group"><i class="fas fa-shopping-cart"></i><span className="tooltip-text">AddToCart</span></a>
-                    <a href="" className="group"><i class="far fa-heart"></i><span className='tooltip-text'>Add To Cart</span></a>
-                    <a href="" className="group"><i class="fas fa-exchange-alt"></i><span className='tooltip-text'>Add To Cart</span></a>
-                    <a href="" className="group"><i class="far fa-eye"><span className='tooltip-text'>Add To Cart</span></i></a>
+                    <a href="" className="group"><i class="far fa-heart"></i><span className='tooltip-text'>WhisList</span></a>
+                    <a href="" className="group"><i class="fas fa-exchange-alt"></i><span className='tooltip-text'>Compare</span></a>
+                    <a href="" className="group"><i class="far fa-eye"></i><span className='tooltip-text'>Quick View</span></a>
                     </div>
                     
                     
