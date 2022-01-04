@@ -3,11 +3,10 @@ import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
 import './App.css';
+// import Ab from './Components/Ab/Ab';
 
 import About from './Components/About/About';
 import Home from './Components/Home/Home';
-import Login from "./Components/Login/Login";
-import Register from './Components/Register/Register';
 
 function App() {
   return (
@@ -16,10 +15,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} /> 
         <Route path="/about" element={<About />} />  
-        <Route  path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />}/> 
+       
+        
         
       </Routes>
+      {/* <Route path="/ab" element={<Ab />} />   */}
     </div>
   );
 }
