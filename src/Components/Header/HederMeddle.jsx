@@ -3,7 +3,7 @@ import { Container, FormControl, InputGroup, Row } from 'react-bootstrap'
 
 export default function HederMeddle() {
     return (
-        <div className='py-3'>
+        <Container className='py-3'>
 
             <Row>
                 <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
@@ -24,14 +24,14 @@ export default function HederMeddle() {
                         </InputGroup>
                     </form>
                 </div>
-                <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                    <img src="./images/avatar.png" alt="" width="50px" />
-                    <img src="./images/heart.png" alt="" width="50px" />
-                    <img src="./images/shopping-bag.png" alt="" width="50px" />
+                <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3 ">
+                    <img src="./images/avatar.png" alt="" width="30px" className="img-fluid p-2" />
+                    <img src="./images/heart.png" alt="" width="30px" className="img-fluid p-2" />
+                    <img src="./images/shopping-bag.png" alt="" width="30px" className="img-fluid p-2" />
                 </div>
 
             </Row>
 
-        </div>
+        </Container>
     )
 }
