@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import { Card, Col, Row } from "react-bootstrap";
 import Slider from '../Slider/Slider';
 import './Home.css';
@@ -30,10 +31,19 @@ const products = [
     },
 ]
 
+=======
+
+import Footer from "../Footer/Footer";
+
+import Manu from "../Manu/Manu";
+import HeaderTop from './../Header/HeaderTop';
+import HederMeddle from './../Header/HederMeddle';
+>>>>>>> acccfdb445f9f8699c4673302598ddd7a365d6ad
 
 export default function Home() {
     return (
         <div>
+<<<<<<< HEAD
             <Slider />
             <div className="container py-5">
                 <h3 className="mb-3">Our Top Collection</h3>
@@ -51,6 +61,13 @@ export default function Home() {
                                         <i class="fas fa-star filled"></i>
                                         <i class="fas fa-star filled"></i>
                                         <i class="fas fa-star empty"></i>
+=======
+            <HeaderTop />
+            <HederMeddle />
+            <Manu />
+           
+           
+>>>>>>> acccfdb445f9f8699c4673302598ddd7a365d6ad
 
                                     </div>
                                 </div>

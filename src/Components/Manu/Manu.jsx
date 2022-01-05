@@ -22,6 +22,7 @@ export default function Manu() {
                             >
                                 <Link to="/"></Link>
                                 <Link to="/home">Home</Link>
+<<<<<<< HEAD
                                 <Link to="/about">About</Link>
                                 <Link to="/cart">Cart</Link>
                                 <Link to="/shop">Shop</Link>
@@ -41,6 +42,10 @@ export default function Manu() {
                                 )}
 
 
+=======
+                                <Link to="/about">Link</Link>
+                                
+>>>>>>> acccfdb445f9f8699c4673302598ddd7a365d6ad
                             </Nav>
 
                         </Navbar.Collapse>

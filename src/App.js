@@ -3,8 +3,10 @@ import * as React from "react";
 // import { Switch, Route } from "react-router-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
+
 import About from './Components/About/About';
 import Home from './Components/Home/Home';
+<<<<<<< HEAD
 import Cart from './Components/Cart/Cart';
 import AuthProvider from "./contexts/AuthProvider/AuthProvider";
 
@@ -17,10 +19,15 @@ import PageNotFound from './Components/PageNotFound/PageNotFound';
 import Login from './Components/Login/Login/Login';
 import PrivetRouter from './Components/Login/PrivateRouter/PrivetRouter';
 import Regester from './Components/Login/Regester/Regester';
+=======
+import Login from "./Components/Login/Login";
+import Register from './Components/Register/Register';
+>>>>>>> acccfdb445f9f8699c4673302598ddd7a365d6ad
 
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       <AuthProvider>
         <Router>
           <Header></Header>
@@ -65,6 +72,17 @@ function App() {
         </Router>
       </AuthProvider>
     </div >
+=======
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} /> 
+        <Route path="/about" element={<About />} />  
+        <Route  path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />}/> 
+        
+      </Routes>
+    </div>
+>>>>>>> acccfdb445f9f8699c4673302598ddd7a365d6ad
   );
 }
 
